@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gio's blog - Python Basics</title>
+<link rel="stylesheet" href="https://z0coolcs.github.io/gioswebsite/assets/python.6c49693c.css" />
+<link rel="stylesheet" href="https://z0coolcs.github.io/gioswebsite/assets/python.40f52203.css" /></head>
+<body class="bg-reallyLightGray">
+
+    <nav class="container mx-auto  bg-reallyLightGreen sticky top-0 p-2">
+    <div class="flex items-center justify-between">
+
+        <div class=" ml-3 font-bold text-2xl">
+            Gio's Blog 
+        </div>
+    
+        <div class="">
+            <ul class="flex space-x-6">
+                <li class=""><a class="p-2 hover:bg-darkGreen hover:text-white text-2xl" href="https://z0coolcs.github.io/gioswebsite/">Home</a> </li><li class=""><a class="p-2 hover:bg-darkGreen hover:text-white text-2xl" href="https://z0coolcs.github.io/gioswebsite/posts">Posts</a> </li><li class=""><a class="p-2 hover:bg-darkGreen hover:text-white text-2xl" href="https://z0coolcs.github.io/gioswebsite/projects">Projects</a> </li>
+            </ul>
+    
+        </div>
+    
+        <div class="mr-3 bg-Green p-2 rounded-full hover:bg-lightGreen">
+            <img src="https://z0coolcs.github.io/gioswebsite/images/sun.svg" alt="sun" class="w-5">
+        </div>
+    
+    </div>
+</nav>
+
+    <div class="mt-20">
+        <div class="container mx-auto">
+
+        <h2 class="uppercase text-2xl bg-green-200 rounded-full inline-block p-2">post</h2>
+        
+        <div class="mb-2">
+                <a href="https://z0coolcs.github.io/gioswebsite/posts/tag/programming" class="uppercase mr-2 text-blue-700 ">
+                        #<span class="font-bold hover:underline">programming</span> 
+                    </a><a href="https://z0coolcs.github.io/gioswebsite/posts/tag/python" class="uppercase mr-2 text-blue-700 ">
+                        #<span class="font-bold hover:underline">python</span> 
+                    </a>
+                
+            </div>
+        
+        <div class="mb-4">
+            <h2 class="text-4xl mb-2 font-bold">Python Basics</h2>
+            <p>1 November 2022</p>
+        </div>
+        <div id="content" class="">
+            <p><img class="flex mx-auto" src="https://z0coolcs.github.io/gioswebsite/images/posts/python/python.png" alt="Datatypes in Python"></p>
+<h2 class="font-bold">Important note!</h2>
+Before starting, all code presented in this blog is available using this <strong> <a href="https://colab.research.google.com/drive/10WHrLMy3OSpnzCjtuVcHetQARuoIMs4C?usp=sharing" target="_blank">link</a> </strong>.
+<h2 class="text-6xl my-2">Let's get started</h2>
+<p class="mb-8">
+When we want to communicate with someone else we use words, and exactly a language. When we want to do the same with a computer machine, we also need a language. In this case, it is a programming language. Python is one of the most famous programming languages nowadays. If you learn to code in Python, you will be able to run your code in smartphones, tablets, laptops, IoT devices, etc. This is known as the <strong>multi-platform</strong> characteristic. 
+</p>
+<p>
+If you want to start to code, you need to understand an important concept which is <strong>Variable</strong>. We could think about a Variable as a Box which can save a specific value. This value belongs to a specific <strong>datatype</strong>.
+</p>
+<p><img class="flex mx-auto h-96 my-8" src="https://z0coolcs.github.io/gioswebsite/images/posts/python/variable.png" alt="Variable"></p>
+<h3 class="text-4xl my-2">Datatypes in Python</h3>
+There exists several datatypes in python, but the most frequent are:
+<ul class="list-disc ml-6">
+     <li> Numeric (Integer, Float, Complex)
+     </li><li> Sequential (String, List, Tuple)
+     </li><li> Dictionary
+     </li><li> Set
+     </li><li> Boolean
+</li></ul>
+<h4 class="text-4xl mt-8">
+Numeric
+</h4>
+<p>Numeric datatypes take care of numeric values such as 4, 45.3 or 3+2j.</p>
+<h5 class="text-3xl mt-8">
+Integer
+</h5>
+For an integer variable, we can define it using a integer value. The code below shows an example how you could do that 👇.
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #C9D1D9">variable1 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">23</span></span>
+<span class="line"><span style="color: #C9D1D9">variable2 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #FF7B72">-</span><span style="color: #79C0FF">2</span></span>
+<span class="line"><span style="color: #C9D1D9">variable3 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">0</span></span></code></pre>
+<h5 class="text-3xl mt-8">
+Float
+</h5>
+For an floating-point variable, we can define it using a floating-precision value. The code below shows an example how you could do that 👇.
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #C9D1D9">variable1 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">23.4</span></span>
+<span class="line"><span style="color: #C9D1D9">variable2 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #FF7B72">-</span><span style="color: #79C0FF">2.5</span></span>
+<span class="line"><span style="color: #C9D1D9">variable3 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">0.0</span></span></code></pre>
+<h5 class="text-3xl mt-8">
+Complex
+</h5>
+For an complex variable, we can define it using a complex value where the imaginary part has an extra character <strong>j</strong>. The code below shows an example how you could do that 👇.
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #C9D1D9">variable1 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">23</span><span style="color: #FF7B72">+</span><span style="color: #79C0FF">6</span><span style="color: #FF7B72">j</span></span>
+<span class="line"><span style="color: #C9D1D9">variable2 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #FF7B72">-</span><span style="color: #79C0FF">2</span><span style="color: #FF7B72">+</span><span style="color: #79C0FF">2</span><span style="color: #FF7B72">j</span></span>
+<span class="line"><span style="color: #C9D1D9">variable3 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">4</span><span style="color: #FF7B72">j</span></span></code></pre>
+<p class="my-4">
+Available operations using numerics values are: addition, substraction, multiplication, division, module. <a class="font-bold" href="https://docs.python.org/3/library/stdtypes.html" target="_blank">More info here</a>
+</p>
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #C9D1D9">variable1 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">2</span></span>
+<span class="line"><span style="color: #C9D1D9">variable2 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">5</span></span>
+<span class="line"><span style="color: #C9D1D9">variable3 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> variable1 </span><span style="color: #FF7B72">+</span><span style="color: #C9D1D9"> variable2  </span><span style="color: #8B949E"># variable3 is 7</span></span>
+<span class="line"><span style="color: #C9D1D9">variable4 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> variable1 </span><span style="color: #FF7B72">-</span><span style="color: #C9D1D9"> variable2  </span><span style="color: #8B949E"># variable3 is -3</span></span>
+<span class="line"><span style="color: #C9D1D9">variable5 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> variable1 </span><span style="color: #FF7B72">*</span><span style="color: #C9D1D9"> variable2  </span><span style="color: #8B949E"># variable3 is 10</span></span>
+<span class="line"><span style="color: #C9D1D9">variable6 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> variable1 </span><span style="color: #FF7B72">/</span><span style="color: #C9D1D9"> variable2  </span><span style="color: #8B949E"># variable3 is 0.4</span></span></code></pre>
+<h4 class="text-4xl mt-8">
+Sequential
+</h4>
+<p>Sequential datatypes take care of sequential values such as “2343”, “Pepe”, [2, 3, 3], (23, 3, 4).</p>
+<h5 class="text-3xl mt-8">
+String
+</h5>
+For a String variable, we can define it using a value between characters  <strong>" "</strong>. The code below shows an example how you could do that 👇.
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #C9D1D9">variable1 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #A5D6FF">"23"</span></span>
+<span class="line"><span style="color: #C9D1D9">variable2 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #A5D6FF">"ABCDEFG"</span></span>
+<span class="line"><span style="color: #C9D1D9">variable3 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #A5D6FF">"ABC123abc"</span></span></code></pre>
+<h5 class="text-3xl mt-8">
+List
+</h5>
+For a list variable, we can define it using a sequential of values between <strong>[ ]</strong>. The code below shows an example how you could do that 👇.
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #C9D1D9">variable1 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> [</span><span style="color: #79C0FF">2</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">3</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">5</span><span style="color: #C9D1D9">]</span></span>
+<span class="line"><span style="color: #C9D1D9">variable2 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> [</span><span style="color: #A5D6FF">"ABC"</span><span style="color: #C9D1D9">, </span><span style="color: #A5D6FF">"abc"</span><span style="color: #C9D1D9">, </span><span style="color: #A5D6FF">"DEF"</span><span style="color: #C9D1D9">]</span></span>
+<span class="line"><span style="color: #C9D1D9">variable3 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> [</span><span style="color: #79C0FF">2</span><span style="color: #C9D1D9">, </span><span style="color: #A5D6FF">"ABC"</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">5.5</span><span style="color: #C9D1D9">]</span></span></code></pre>
+<h5 class="text-3xl mt-8">
+Tuples
+</h5>
+For a Tuple variable, we can define it using a sequential of values between <strong>( )</strong>. The code below shows an example how you could do that 👇.
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #C9D1D9">variable1 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> (</span><span style="color: #79C0FF">2</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">3</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">5</span><span style="color: #C9D1D9">)</span></span>
+<span class="line"><span style="color: #C9D1D9">variable2 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> (</span><span style="color: #A5D6FF">"ABC"</span><span style="color: #C9D1D9">, </span><span style="color: #A5D6FF">"abc"</span><span style="color: #C9D1D9">, </span><span style="color: #A5D6FF">"DEF"</span><span style="color: #C9D1D9">)</span></span>
+<span class="line"><span style="color: #C9D1D9">variable3 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> (</span><span style="color: #79C0FF">2</span><span style="color: #C9D1D9">, </span><span style="color: #A5D6FF">"ABC"</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">5.5</span><span style="color: #C9D1D9">)</span></span></code></pre>
+<!-- <h4 class="text-4xl mt-8">
+Dictionaries
+</h4> -->
+        </div>
+
+    </div>
+    </div>
+    
+</body></html>
