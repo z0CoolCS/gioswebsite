@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gio's blog - Python Basics</title>
 <link rel="stylesheet" href="https://z0coolcs.github.io/gioswebsite/assets/python.6c49693c.css" />
-<link rel="stylesheet" href="https://z0coolcs.github.io/gioswebsite/assets/python.40f52203.css" /></head>
+<link rel="stylesheet" href="https://z0coolcs.github.io/gioswebsite/assets/python.e0df05dd.css" /></head>
 <body class="bg-reallyLightGray">
 
     <nav class="container mx-auto  bg-reallyLightGreen sticky top-0 p-2">
     <div class="flex items-center justify-between">
 
         <div class=" ml-3 font-bold text-2xl">
+            <a href="https://z0coolcs.github.io/gioswebsite/">
             Gio's Blog 
+            </a>
         </div>
     
         <div class="">
@@ -110,27 +112,77 @@ Sequential
 <h5 class="text-3xl mt-8">
 String
 </h5>
-For a String variable, we can define it using a value between characters  <strong>" "</strong>. The code below shows an example how you could do that 👇.
+<p class="my-4">
+For a String variable, we can define it using a value between characters  <strong>" "</strong>. The code below shows some examples how you could do that 👇.
+</p>
 <pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #C9D1D9">variable1 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #A5D6FF">"23"</span></span>
 <span class="line"><span style="color: #C9D1D9">variable2 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #A5D6FF">"ABCDEFG"</span></span>
 <span class="line"><span style="color: #C9D1D9">variable3 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #A5D6FF">"ABC123abc"</span></span></code></pre>
 <h5 class="text-3xl mt-8">
 List
 </h5>
-For a list variable, we can define it using a sequential of values between <strong>[ ]</strong>. The code below shows an example how you could do that 👇.
+<p class="my-4">
+For a list variable, we can define it using a sequential of values between <strong>[ ]</strong>. The code below shows some examples how you could do that 👇.
+</p>
 <pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #C9D1D9">variable1 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> [</span><span style="color: #79C0FF">2</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">3</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">5</span><span style="color: #C9D1D9">]</span></span>
 <span class="line"><span style="color: #C9D1D9">variable2 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> [</span><span style="color: #A5D6FF">"ABC"</span><span style="color: #C9D1D9">, </span><span style="color: #A5D6FF">"abc"</span><span style="color: #C9D1D9">, </span><span style="color: #A5D6FF">"DEF"</span><span style="color: #C9D1D9">]</span></span>
 <span class="line"><span style="color: #C9D1D9">variable3 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> [</span><span style="color: #79C0FF">2</span><span style="color: #C9D1D9">, </span><span style="color: #A5D6FF">"ABC"</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">5.5</span><span style="color: #C9D1D9">]</span></span></code></pre>
 <h5 class="text-3xl mt-8">
 Tuples
 </h5>
-For a Tuple variable, we can define it using a sequential of values between <strong>( )</strong>. The code below shows an example how you could do that 👇.
+<p class="my-4">
+For a Tuple variable, we can define it using a sequential of values between <strong>( )</strong>. The code below shows some examples how you could do that 👇.
+</p>
 <pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #C9D1D9">variable1 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> (</span><span style="color: #79C0FF">2</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">3</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">5</span><span style="color: #C9D1D9">)</span></span>
 <span class="line"><span style="color: #C9D1D9">variable2 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> (</span><span style="color: #A5D6FF">"ABC"</span><span style="color: #C9D1D9">, </span><span style="color: #A5D6FF">"abc"</span><span style="color: #C9D1D9">, </span><span style="color: #A5D6FF">"DEF"</span><span style="color: #C9D1D9">)</span></span>
 <span class="line"><span style="color: #C9D1D9">variable3 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> (</span><span style="color: #79C0FF">2</span><span style="color: #C9D1D9">, </span><span style="color: #A5D6FF">"ABC"</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">5.5</span><span style="color: #C9D1D9">)</span></span></code></pre>
-<!-- <h4 class="text-4xl mt-8">
-Dictionaries
-</h4> -->
+<h4 class="text-4xl mt-8">
+Dictionary
+</h4>
+<p class="my-4">
+Dictionary datatypes make easy to find a <strong>value</strong> based on a <strong>key</strong>. If you know about databases, dictionaries are quite similar to them.  We can define it using a sequential pair of key-values between <strong>{ }</strong>. The code below shows some examples how you could define a dictionary 👇.
+</p>
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #C9D1D9">variable1 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> {</span><span style="color: #A5D6FF">'a'</span><span style="color: #C9D1D9">:</span><span style="color: #A5D6FF">'alphabet'</span><span style="color: #C9D1D9">, </span><span style="color: #A5D6FF">'b'</span><span style="color: #C9D1D9">:</span><span style="color: #A5D6FF">'buy'</span><span style="color: #C9D1D9">, </span><span style="color: #A5D6FF">'c'</span><span style="color: #C9D1D9">:</span><span style="color: #A5D6FF">'dinner'</span><span style="color: #C9D1D9">}</span></span>
+<span class="line"><span style="color: #C9D1D9">variable2 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> {</span><span style="color: #A5D6FF">'a'</span><span style="color: #C9D1D9">:</span><span style="color: #79C0FF">2</span><span style="color: #C9D1D9">, </span><span style="color: #A5D6FF">'b'</span><span style="color: #C9D1D9">:</span><span style="color: #A5D6FF">'buy'</span><span style="color: #C9D1D9">, </span><span style="color: #A5D6FF">'c'</span><span style="color: #C9D1D9">:[</span><span style="color: #79C0FF">2</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">3</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">5</span><span style="color: #C9D1D9">]}</span></span>
+<span class="line"><span style="color: #C9D1D9">variable3 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> {</span><span style="color: #A5D6FF">'a'</span><span style="color: #C9D1D9">: {</span><span style="color: #A5D6FF">'ab'</span><span style="color: #C9D1D9">:</span><span style="color: #A5D6FF">'ABC'</span><span style="color: #C9D1D9">, </span><span style="color: #A5D6FF">'ac'</span><span style="color: #C9D1D9">:</span><span style="color: #A5D6FF">'ACD'</span><span style="color: #C9D1D9">}, </span><span style="color: #A5D6FF">'b'</span><span style="color: #C9D1D9">:</span><span style="color: #A5D6FF">'buy'</span><span style="color: #C9D1D9">, </span><span style="color: #A5D6FF">'c'</span><span style="color: #C9D1D9">:[</span><span style="color: #79C0FF">2</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">3</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">5</span><span style="color: #C9D1D9">]}</span></span></code></pre>
+<p class="my-4">
+To access a specific value inside a dictionary we use the variable and a key.
+</p>
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #C9D1D9">variable1 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> {</span><span style="color: #A5D6FF">'a'</span><span style="color: #C9D1D9">:</span><span style="color: #A5D6FF">'alphabet'</span><span style="color: #C9D1D9">, </span><span style="color: #A5D6FF">'b'</span><span style="color: #C9D1D9">:</span><span style="color: #A5D6FF">'buy'</span><span style="color: #C9D1D9">, </span><span style="color: #A5D6FF">'c'</span><span style="color: #C9D1D9">:</span><span style="color: #A5D6FF">'dinner'</span><span style="color: #C9D1D9">}</span></span>
+<span class="line"><span style="color: #79C0FF">print</span><span style="color: #C9D1D9">(variable1[</span><span style="color: #A5D6FF">'a'</span><span style="color: #C9D1D9">]) </span><span style="color: #8B949E"># it shows 'alphabet'</span></span></code></pre>
+<h4 class="text-4xl mt-8">
+Set
+</h4>
+<p class="my-4">
+Set datatypes make easy to find a unique values in a group. We can define it using a sequential of values between <strong>{ }</strong>. The code below shows some examples how you could define a set 👇.
+</p>
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #C9D1D9">variable1 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> {</span><span style="color: #A5D6FF">'a'</span><span style="color: #C9D1D9">, </span><span style="color: #A5D6FF">'b'</span><span style="color: #C9D1D9">, </span><span style="color: #A5D6FF">'c'</span><span style="color: #C9D1D9">}</span></span>
+<span class="line"><span style="color: #C9D1D9">variable2 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> {</span><span style="color: #A5D6FF">'a'</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">2</span><span style="color: #C9D1D9">, </span><span style="color: #79C0FF">2.3</span><span style="color: #C9D1D9">}</span></span>
+<span class="line"><span style="color: #C9D1D9">variable3 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> {</span><span style="color: #A5D6FF">"cat"</span><span style="color: #C9D1D9">, </span><span style="color: #A5D6FF">"dog"</span><span style="color: #C9D1D9">, </span><span style="color: #A5D6FF">"bird"</span><span style="color: #C9D1D9">, </span><span style="color: #A5D6FF">"dog"</span><span style="color: #C9D1D9">}</span></span>
+<span class="line"><span style="color: #79C0FF">print</span><span style="color: #C9D1D9">(variable3) </span><span style="color: #8B949E"># it will show {'dog', 'bird', 'cat'}</span></span></code></pre>
+<p class="my-4">
+<strong>Note</strong>: one think to take in consideration is we can not have dictionaries or list inside a set datatype.
+</p>
+<h4 class="text-4xl mt-8">
+Boolean
+</h4>
+<p class="my-4">
+Boolean datatypes takes only two values <strong>True</strong> or <strong>False</strong>. This is called a binary variable. The code below shows some examples how you could define a set 👇.
+</p>
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #C9D1D9">variable1 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">True</span></span>
+<span class="line"><span style="color: #C9D1D9">variable2 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">False</span></span>
+<span class="line"><span style="color: #C9D1D9">variable3 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #FF7B72">not</span><span style="color: #C9D1D9"> variable1</span></span>
+<span class="line"><span style="color: #79C0FF">print</span><span style="color: #C9D1D9">(variable3) </span><span style="color: #8B949E"># it will show False</span></span></code></pre>
+<p class="my-4">
+We usually see boolean expressions when we compare values. The code below shows some examples how you could define a set 👇.
+</p>
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #C9D1D9">variable1 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">20</span></span>
+<span class="line"><span style="color: #C9D1D9">variable2 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">13</span></span>
+<span class="line"><span style="color: #C9D1D9">variable3 </span><span style="color: #FF7B72">=</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">20</span><span style="color: #C9D1D9"> </span></span>
+<span class="line"><span style="color: #79C0FF">print</span><span style="color: #C9D1D9">(variable1 </span><span style="color: #FF7B72">==</span><span style="color: #C9D1D9"> variable2) </span><span style="color: #8B949E"># it will show False</span></span>
+<span class="line"><span style="color: #79C0FF">print</span><span style="color: #C9D1D9">(variable1 </span><span style="color: #FF7B72">==</span><span style="color: #C9D1D9"> variable3) </span><span style="color: #8B949E"># it will show True</span></span>
+<span class="line"><span style="color: #79C0FF">print</span><span style="color: #C9D1D9">(variable1 </span><span style="color: #FF7B72">>=</span><span style="color: #C9D1D9"> variable2) </span><span style="color: #8B949E"># it will show True</span></span>
+<span class="line"><span style="color: #79C0FF">print</span><span style="color: #C9D1D9">(variable2 </span><span style="color: #FF7B72">&#x3C;=</span><span style="color: #C9D1D9"> variable3) </span><span style="color: #8B949E"># it will show True</span></span></code></pre>
         </div>
 
     </div>
